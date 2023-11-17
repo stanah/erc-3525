@@ -14,7 +14,7 @@ import "./IERC3525ReceiverUpgradeable.sol";
 import "./extensions/IERC721EnumerableUpgradeable.sol";
 import "./extensions/IERC721MetadataUpgradeable.sol";
 import "./extensions/IERC3525MetadataUpgradeable.sol";
-import "./periphery/interface/IERC3525MetadataDescriptorUpgradeable.sol";
+import "./periphery/interfaces/IERC3525MetadataDescriptorUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract ERC3525Upgradeable is Initializable, ContextUpgradeable, IERC3525MetadataUpgradeable, IERC721EnumerableUpgradeable {

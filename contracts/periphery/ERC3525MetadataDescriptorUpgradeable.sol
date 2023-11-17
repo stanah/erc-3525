@@ -4,7 +4,7 @@ pragma solidity ^0.8.1;
 
 import "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/utils/Base64Upgradeable.sol";
-import "./interface/IERC3525MetadataDescriptorUpgradeable.sol";
+import "./interfaces/IERC3525MetadataDescriptorUpgradeable.sol";
 import "../extensions/IERC3525MetadataUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 

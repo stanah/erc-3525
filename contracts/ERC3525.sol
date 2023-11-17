@@ -14,7 +14,7 @@ import "./IERC3525Receiver.sol";
 import "./extensions/IERC721Enumerable.sol";
 import "./extensions/IERC721Metadata.sol";
 import "./extensions/IERC3525Metadata.sol";
-import "./periphery/interface/IERC3525MetadataDescriptor.sol";
+import "./periphery/interfaces/IERC3525MetadataDescriptor.sol";
 
 contract ERC3525 is Context, IERC3525Metadata, IERC721Enumerable {
     using Strings for address;
